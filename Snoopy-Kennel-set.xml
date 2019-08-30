@@ -8,14 +8,14 @@
 
  <sim>
 
-  <description>Snoopy-Kennel</description>
+  <description>Snoopy Kennel</description>
   <author>Patrizio Melis (3D, FDM)</author>
   <status>alpha</status>
 
   <flight-model>ufo</flight-model>
 
   <startup>
-   <splash-texture>Aircraft/Snoopy-Kennel/splash.png</splash-texture>
+   <splash-texture>Aircraft/Snoopy-Kennel/splash.jpg</splash-texture>
   </startup>
 
   <sound>
