@@ -10,7 +10,7 @@ data 12
 House-Bottom
 loc 0.0000000 0.0054824 0.0000000
 crease 35.0
-texture "98734.jpg"
+texture "snoopy-kennel.jpg"
 texrep 1 1
 numvert 1053
 0.35256 0.44837 0.00797
@@ -9655,7 +9655,7 @@ data 9
 House-Top
 loc 0.0000000 0.5866404 0.0000000
 crease 35.0
-texture "98734.jpg"
+texture "snoopy-kennel.jpg"
 texrep 1 1
 numvert 1487
 -0.01142 0.00000 0.46194
