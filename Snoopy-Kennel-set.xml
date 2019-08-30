@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<!-- License:  GNU GPLv2                   -->
+<!-- Author:   Patrizio Melis              -->
+<!-- Email:    cobe571@gmail.com           -->
+
+<PropertyList>
+
+ <sim>
+
+  <description>Snoopy-Kennel</description>
+  <author>Patrizio Melis (3D, FDM)</author>
+  <status>alpha</status>
+
+  <flight-model>ufo</flight-model>
+
+  <startup>
+   <splash-texture>Aircraft/Snoopy-Kennel/splash.png</splash-texture>
+  </startup>
+
+  <sound>
+   <path type="string">Aircraft/Snoopy-Kennel/Sounds/sound.xml</path>
+  </sound>
+
+  <submodels> 
+<!--  -->
+  </submodels>
+
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+
+  <model>
+   <path>Aircraft/Snoopy-Kennel/Models/Snoopy-Kennel.xml</path>
+  </model>
+  
+  <view n="0">
+      <internal archive="y">true</internal>
+      <config>
+        <x-offset-m archive="y">  0.00 </x-offset-m>	<!-- Right -->
+        <y-offset-m archive="y">  1.35 </y-offset-m>	<!-- Up    -->
+        <z-offset-m archive="y"> -1.95 </z-offset-m>	<!-- Back  -->
+        <default-field-of-view-deg> 85 </default-field-of-view-deg>
+        <pitch-offset-deg> -6.3 </pitch-offset-deg>
+      </config>
+    </view>
+
+  <help>
+   <title>Snoopy-Kennel</title>
+   
+  </help>
+
+  <multiplay>
+    <generic>
+       <float n="0"> 1.0 </float>
+       <float n="1"> 1.0 </float>
+    </generic>
+  </multiplay>
+
+</sim>
+
+ <nasal>
+ </nasal>
+
+
+</PropertyList>
